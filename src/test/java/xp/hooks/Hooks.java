@@ -8,7 +8,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import xp.base.TestBase;
 
-public class Hooks {
+public class Hooks extends TestBase{
 
     TestBase test = new TestBase(); 
 	
